@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CS_Grid</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .el1 {
+            background-color: red;
+            grid-column: 1 / -1;
+            grid-row: 2/3;
+            /* grid-row:1/4; */
+        }
+
+        .el2 {
+            background-color: green;
+
+        }
+
+        .el3 {
+            background-color: orange;
+
+        }
+
+        .el4 {
+            background-color: lime;
+
+
+        }
+
+        .el5 {
+            background-color: honeydew;
+
+        }
+
+        .el6 {
+            background-color: lemonchiffon;
+            /* column-gap: 1100px; */
+        }
+
+        .el7 {
+            background-color: lightgrey;
+
+
+        }
+
+        .el8 {
+            background-color: peachpuff;
+            align-content: center;
+            justify-content: center;
+            /* grid-column: 2/3;
+            grid-row: 1/2; */
+
+        }
+
+        .container {
+            width: 1096px;
+            margin-left: auto;
+            margin-top: 100px;
+            margin-right: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 100px 100px;
+            column-gap: 10px;
+            row-gap: 10px;
+            height: 300px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="el1"> Html</div>
+        <div class="el2"> and</div>
+        <div class="el3"> CSS</div>
+        <div class="el4"> are</div>
+        <div class="el5"> amazing</div>
+        <div class="el6"> languages</div>
+        <div class="el7"> to</div>
+        <div class="el8"> Learn</div>
+    </div>
+</body>
+
+</html>

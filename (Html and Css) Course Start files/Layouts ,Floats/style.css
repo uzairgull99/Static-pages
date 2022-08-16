@@ -1,0 +1,266 @@
+
+*{
+    /* border-top:5px solid #1098ad; */
+    padding:0;
+    margin:0;
+}
+
+
+body{
+    border-top:10px solid #1098ad;
+    font-family: sans-serif;
+    color:#444;
+    position:relative;
+}
+
+.top-header{
+    background-color:#f7f7f7;
+    padding:20px 40px;
+    margin-bottom:35px;
+    /* text-align:center; */
+}
+
+article{
+    margin-bottom:10px;
+
+}
+.post-header{
+    margin-top:40px;
+}
+/* h1,h2,h3,h4,p,li{
+    font-family:sans-serif;
+    color:#444;
+} */
+
+h1,h2,h3{
+    color:#1098ad;
+}
+
+h1{
+
+    font-size:26px;
+    text-transform:uppercase;
+    text-align:left;
+}
+h2{
+    font-size:30px;
+    margin-bottom:20px;
+    /* background-color:saddlebrown; */
+    position: relative;
+}
+
+h3{
+    font-size:30px;
+    margin-bottom:10px;
+    margin-top:40px;
+}
+
+h4{
+    font-size:20px;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+p{
+    font-size:22px;
+    line-height:1.5;
+    margin-bottom:20px;
+}
+
+ul,ol{
+    font-size:18px;
+    /* margin-bottom:20px; */
+    margin-left:50px;
+}
+
+li{
+    margin-bottom:10px;
+}
+
+
+.author{
+    font-style:italic;
+    font-size:18px;
+}
+
+.related-author{
+    font-weight:bold;
+    font-size:18px;
+}
+
+.related-post{
+list-style:none;
+padding:5px;
+margin-left:0;
+}
+
+
+#footer p {
+    font-size:15px;
+}
+
+
+aside{
+    background-color: #f7f7f7;
+    border-top:5px solid #1098ad;
+    border-bottom:5px solid #1098ad;
+    padding:10px; 
+    margin-bottom:10px;
+}
+
+ /* li:first-child{
+    font-weight:bold; 
+    
+}   */
+
+/* li:nth-child(odd)
+{
+    color:red;
+} */
+/* article p:nth-child(3)
+{
+    color:red;
+} */
+
+a:link{
+    color:#1098ad;
+    text-decoration:none;
+
+}
+a:visited{
+    color:#1098ad;
+}
+a:hover{
+    color:rgb(22, 86, 146);
+    font-weight:bold;
+    text-decoration:underline #444;
+}
+a:active{
+    background-color:#1098ad79;
+    font-style:italic; 
+}
+
+/* footer p{
+    color:red !important;
+} */
+
+.blog-img{
+    width:100%;
+    height:auto;
+}
+.author-img{
+    height:50%;
+    width:5%;
+}
+
+.container{
+    width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+nav a:link{
+    margin-top:5px;
+     margin-left:10px;     
+    padding:10px; 
+ /*background-color:rosybrown;*/
+    display:inline-block;
+}
+
+nav a:link:first-child{
+    margin-left:27px;
+}
+nav a:link:last-child{
+    margin-right:0;
+}
+
+button{
+     padding:20px; 
+     color:red;
+     border:2px red solid;
+     position:absolute;
+     bottom:50px; 
+     right:50px; 
+}
+button:hover{
+    background-color:yellow;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+
+h2::after{
+    content:"TOP";
+    font-weight:bold;
+    font-size:16px;
+    color:#000;
+    background-color:yellow;
+    position:absolute;
+    padding:5px;
+    border:2px yellowgreen solid;
+    top:-20px;
+    right:-10px;
+}
+
+.author-img{
+    float:left;
+    margin-bottom:20px;
+}
+
+.author{
+    float:left;
+    margin-left:20px;
+    margin-top:20px;
+}
+
+h1{
+    float:left;
+}
+nav{
+    float:right;
+}
+
+.clear-fix::after {
+    clear:both;
+    content:" ";
+    display:block;
+}
+
+/* Buliding Layout using Float */
+
+/* article{
+ 
+width:825px;
+float:left;
+box-sizing: border-box;
+
+}
+
+aside{
+width:300px;
+float:right;
+box-sizing:border-box;
+}
+
+footer{
+clear:both;
+} */
+ 
+/* Building Layout using Flex */
+
+.flex-box{
+    display:flex;
+    gap:75px;
+    margin-bottom:60px;
+    align-items:flex-start;
+    
+} 
+article{
+    flex:0 0 825px;
+    margin-bottom: 0;
+    
+}
+aside{
+    flex:0 0 300px;
+}
