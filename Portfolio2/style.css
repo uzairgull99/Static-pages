@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* .nav-tag{
+
+} */
+/* #212529 */
+body{
+    margin-top:10px;
+    background-color:#212529;
+    font-family: 'DMS Sans',sans-serif;
+    color:white;
+    border:2px solid #343a40;
+    box-shadow: 0 4px 4px 4px #343a40;
+    margin:12px;
+}
+.nav-tag{
+    display:flex;
+    margin-top:20px;
+    color:white;
+    /* flex-direction:column-reverse; */
+    
+}
+a{
+    margin:10px;
+    /* flex:1 100px; */
+    
+}
+a:nth-of-type(1){
+    flex:2 400px;
+    margin-left:250px;
+}
+a:nth-of-type(5)
+{
+    margin-right:200px;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color:white;
+}
+a:hover{
+
+}
+a:active{
+
+}
+
+.focus{
+    position:absolute;
+    top:150px;
+    left:350px;
+}
+
+.focus h1:nth-child(3){
+    text-decoration:underline;
+    margin-bottom:30px;
+
+}
+
+.focus h1{
+    margin-bottom:5px;
+}
+
+.focus button{
+   
+    width:200px;  
+     /* height:30%;  */
+    padding:10px;
+    /* padding-bottom:10px; */
+    background-color: #343a40;
+    color:white;
+    border-radius:5px;
+    box-shadow: 0 2px 2px 2px rgba(255, 255, 255, 0.075);
+    /* font-weight: bold; */
+    border:none;
+
+   
+}
+.button-icon{
+   width:20px;
+   height:20px;
+   margin-left:5px;
+    stroke:white;
+    position:relative;
+    top:6px;
+   
+}
+.focus button:hover {
+    background-color: white;
+    color:#212529;
+   
+
+} 
+
+.img-1{
+    width:12%;
+    height:12%;
+    object-fit:cover;
+    /* flex:4 200px; */
+    /* margin-top:500px; */
+    
+}
+.img-1:nth-child(4)
+{
+    margin-right:50px;
+}
+
+
+.img-field{
+    display:flex;
+    /* align-items:flex-end; */
+    justify-content: flex-end;
+    margin-top:350px;
+    gap:10px;
+}
+
+
+.second-section{
+display:flex; 
+flex-direction:column;
+margin-top:50px;
+align-items:center;
+}
+
+.second-section p:first-child {
+    margin-bottom:10px;
+    text-transform: uppercase;
+    font-size:14px;
+}
+.second-section p:last-child{
+    font-weight: bold;
+font-size: 30px;
+margin-bottom:40px;
+   
+}
+
+.icon-3{
+    width:50px;
+    margin:20px;
+
+}
+
+.third-section{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-bottom:200px;
+}
+.third-section p{
+    padding:40px;
+    box-shadow: 0 1px 1px 2px #343a40;
+    flex:0 0 95px;
+    font-size:18px;
+
+}
+.third-section p{
+padding-top:10px;
+padding-bottom:20px;
+}
+.third-section svg{
+    /* margin-left:200px; */
+    /* position:relative; */
+     /* color:yellow; */
+     justify-content: center;
+     align-items: center;
+}
+
+.line{
+    border:1px solid #343a40;
+    margin-top:20px;
+    box-shadow: 0 1px 1px 1px #343a40;
+}
